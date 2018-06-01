@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <%- partial('_partial/head') %>
-  <body>
-    <div class="container">
-      <%- partial('_partial/header') %>
-      <main class="main">
-        <%- body %>
-      </main>
+<%- partial('_partial/head') %>
+<body>
+  <div id="container">
+    <%- partial('_partial/header') %>
+    <div id="main">
+      <%- body %>
     </div>
-  </body>
+    <%- partial('_partial/footer') %>
+  </div>
+</body>
 </html>
