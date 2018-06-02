@@ -15,3 +15,6 @@ $ git clone https://github.com/chun98/pure-hexo.git themes/apollo
 cd themes/apollo
 git pull
 ```
+### screenshot
+
+![](/screenshot.png)
