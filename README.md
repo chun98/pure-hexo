@@ -1,6 +1,5 @@
 # pure-hexo
 **This hexo theme is modified from Apollo**
-**Installation
 
 ### Install
 
