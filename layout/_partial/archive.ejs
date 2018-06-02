@@ -1,4 +1,16 @@
-
+<% if (pagination == 2){ %>
+  <% page.posts.each(function(post){ %>
+    <%- partial('article', {post: post, index: true}) %>
+  <% }) %>
+  <% if (page.total > 1){ %>
+    <nav id="page-nav">
+      <%- paginator({
+        prev_text: '&laquo; Prev',
+        next_text: 'Next &raquo;'
+      }) %>
+    </nav>
+  <% } %>
+<% } else { %>
   <div class="archive">
     <% page.posts.each(function(item){ %>
       <article class="<%= item.layout %> post">
@@ -27,3 +39,4 @@
       </article>
     <% }); %>
   </div>
+<% } %>
