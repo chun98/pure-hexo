@@ -1,12 +1,11 @@
 # pure-hexo
 **This hexo theme is modified from Apollo**
-**Installation
 
 ### Install
 
 Run this command from inside your hexo project
 ``` bash
-$ git clone https://github.com/chun98/pure-hexo.git themes/apollo
+$ git clone https://github.com/chun98/pure-hexo.git themes/pure-hexo
 ```
 
 ### Update
@@ -15,3 +14,6 @@ $ git clone https://github.com/chun98/pure-hexo.git themes/apollo
 cd themes/apollo
 git pull
 ```
+### screenshot
+
+![](/screenshot.png)
